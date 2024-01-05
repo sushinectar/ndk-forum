@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+@font-face {
+    font-family: Melted;
+    src: url(./Melted\ Monster.ttf);
+}
+
+@font-face {
+    font-family: Help;
+    src: url(./HelpMe.ttf);
+}
+
+@font-face {
+    font-family: Curse;
+    src: url(./Curse\ of\ the\ Zombie.ttf);
+}
+
+@font-face {
+    font-family: Satan;
+    src: url(./who\ asks\ satan.ttf);
+}

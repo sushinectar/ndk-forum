@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'DotGothic16', sans-serif;
+    background-color: black;
+    color: #9F0000;
+}
+
+.logo-ndk {
+    width: 11rem;
+}
+
+.container {
+    background-color: rgb(20, 20, 20);
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro h1 {
+    margin: 0 0 1rem 0;
+    font-size: 1.2rem;
+    font-family: Melted;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: black;
+}
+
+.intro p {
+    color: #eee;
+}
