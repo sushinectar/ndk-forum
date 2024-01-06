@@ -1,0 +1,37 @@
+@media (max-width: 600px) {
+
+}
+
+@media screen and (max-width: 376px) {
+  .logo-ndk {
+    width: 12rem;
+  }
+
+  .intro h1 {
+    border: 5px solid;
+    font-size: 1.8rem;
+  }
+  
+  .intro h2 {
+    margin: 0.75rem 0 1rem 0;
+    font-size: 1.3rem;
+  }
+
+  .intro p {
+    font-size: 0.8rem;
+  }
+
+  .box-sv {
+    background-color: rgb(10, 10, 10);
+    padding: 1rem;
+  }
+
+  .box-sv p {
+    font-size: 0.9rem;
+  }
+
+  .status img {
+    width: 10.5rem;
+  }
+
+}
