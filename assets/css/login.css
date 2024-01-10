@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #9f0000;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #9f0000;
+}
+
+body {
+  color: #9f0000;
+  background-color: black;
+  font-family: "DotGothic16", sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-items: center;
+}
+
+input[type="email"] {
+  width: 20.5rem;
+  height: 2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(50, 50, 50);
+  box-shadow: 1px 1px 2px #333333;
+  font-size: 1rem;
+  padding: 0 0.5rem 0 0.5rem;
+  color: rgb(170, 170, 170);
+}
+
+input[type="password"] {
+  width: 20.5rem;
+  height: 2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(50, 50, 50);
+  box-shadow: 1px 1px 2px #333333;
+  font-size: 1rem;
+  padding: 0 0.5rem 0 0.5rem;
+  color: rgb(170, 170, 170);
+}
+
+textarea:focus,
+input:focus,
+select:focus {
+  outline: 0;
+  border: 0 none;
+  box-shadow: 0 0 0 0;
+}
+
+button[type="submit"] {
+  width: 21.5rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-family: melted;
+  border: none;
+  border-radius: 5px;
+  color: #dedede;
+  background-color: rgb(10, 10, 10);
+}
+
+.interact {
+  margin: 0 0 0 3rem;
+}
+
+.icon-enter:before {
+  content: "\ea13";
+  margin: 0 0.5rem 0 0;
+  font-size: 2rem;
+}
+
+.icon-menu:before {
+  content: "\e9bd";
+  margin: 0 0 0 0.5rem;
+  font-size: 2rem;
+  color: #9f0000;
+}
+
+.menu-btn {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.logo-ndk {
+  width: 15rem;
+}
+
+.container {
+  padding: 2.5rem 2rem 2.5rem 2rem;
+  background-color: rgb(20, 20, 20);
+}
+
+.container h1 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+  font-family: Curse;
+  text-transform: uppercase;
+  color: #9f0000;
+}
+
+.container label {
+  color: #eee;
+}
+
+.box-login {
+  margin: 0 0 3rem 0;
+}
+
+.box-login a {
+  margin: 0 0 1rem 0;
+}
+
+.box-login input {
+  margin: 0.5rem 0 0.5rem 0;
+  border-radius: 5px;
+}
+
+.pass {
+  display: flex;
+  flex-direction: column;
+}
+
+.box-register p {
+  margin: 0 0 1rem 0;
+}

@@ -1,0 +1,52 @@
+@media (max-width: 400px) {
+  input[type="email"] {
+    width: 19.5rem;
+  }
+
+  input[type="password"] {
+    width: 19.5rem;
+  }
+
+  button[type="submit"] {
+    width: 20.5rem;
+  }
+  .interact {
+    margin: 0 0 0 2rem;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  input[type="email"] {
+    width: 18.5rem;
+  }
+
+  input[type="password"] {
+    width: 18.5rem;
+  }
+
+  button[type="submit"] {
+    width: 19.5rem;
+  }
+
+  .logo-ndk {
+    width: 12rem;
+  }
+
+  .interact {
+    margin: 0 0 0 3rem;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  input[type="email"] {
+    width: 17.5rem;
+  }
+
+  input[type="password"] {
+    width: 17.5rem;
+  }
+
+  button[type="submit"] {
+    width: 18.5rem;
+  }
+}
