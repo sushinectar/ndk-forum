@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Esqueceu sua senha | NDK | Night Darkness</title>
+
+    <link rel="stylesheet" href="/assets/css/forgot.css" />
+    <link rel="stylesheet" href="/assets/css/media-forgot.css" />
+    <link rel="stylesheet" href="../fonts/fonts.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="/index.html"
+        ><img class="logo-ndk" src="/assets/img/logo-titulo.png" alt="logo NDK"
+      /></a>
+      <div class="interact">
+        <a href="./login.html"><span class="icon-enter"></span></a>
+        <button class="menu-btn">
+          <span class="icon-menu"></span>
+        </button>
+      </div>
+    </nav>
+
+    <form class="container-forgot">
+      <h1>Forgot my e-mail / Password</h1>
+      <p>How do you prefer to reset your password?</p>
+
+      <div class="radio-wrapper">
+        <input
+          type="radio"
+          name="choice"
+          id="choice1"
+          value="email"
+          onclick="showEmail()"
+        />
+        <label class="choice1" for="choice1">Email</label>
+      </div>
+
+      <div class="radio-wrapper">
+        <input
+          type="radio"
+          name="choice"
+          id="choice2"
+          value="text"
+          onclick="showText()"
+        />
+        <label class="choice2" for="choice2">Text message</label>
+      </div>
+
+      <div class="email-choice">
+        <p>
+          We will send you an email with instructions on how to reset your
+          password.
+        </p>
+        <input
+          type="email"
+          name="resetEmail"
+          id="resetEmail"
+          placeholder="E-mail"
+        />
+        <button class="submitEmail" type="submit">Send by email</button>
+      </div>
+      <div class="text-choice">
+        <p>
+          We will send you a text message with a password reset code. Charges
+          apply for data and messaging usage.
+        </p>
+        <input
+          type="tel"
+          name="resetText"
+          id="resetText"
+          placeholder="(xx) xxxxx - xxxx    "
+        />
+        <button class="submitText" type="submit">Send by Text</button>
+      </div>
+    </form>
+
+    <script src="/assets/js/modules/forgot.js"></script>
+  </body>
+</html>

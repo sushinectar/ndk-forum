@@ -1,0 +1,21 @@
+@media (max-width: 400px) {
+  .interact {
+    margin: 0 0 0 2rem;
+  }
+  .container {
+    width: 20rem;
+  }
+  .container-forgot {
+    width: 15rem;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .logo-ndk {
+    width: 12rem;
+  }
+
+  .interact {
+    margin: 0 0 0 3rem;
+  }
+}

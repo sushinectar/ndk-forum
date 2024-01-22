@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #9f0000;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #9f0000;
+}
+
+body {
+  color: #9f0000;
+  background-color: black;
+  font-family: "DotGothic16", sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-items: center;
+}
+
+.interact {
+  margin: 0 0 0 3rem;
+}
+
+.icon-enter:before {
+  content: "\ea13";
+  margin: 0 0.5rem 0 0;
+  font-size: 2rem;
+}
+
+.icon-menu:before {
+  content: "\e9bd";
+  margin: 0 0 0 0.5rem;
+  font-size: 2rem;
+  color: #9f0000;
+}
+
+.menu-btn {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.logo-ndk {
+  width: 15rem;
+}
+
+.enter-link {
+  padding: 0 3rem;
+}
+
+.enter-link:hover {
+  text-decoration: underline;
+}
+
+.container-forgot {
+  background-color: #eee;
+  width: 25em;
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem;
+  margin: auto;
+}
+
+.radio-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 0.2rem;
+  align-items: center;
+}
+
+.radio-wrapper input[type="radio"] {
+  appearance: none;
+  border: 1px solid #aaa;
+  height: 1.8rem;
+  width: 1.8rem;
+  border-radius: 50%;
+  background-color: #eee;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.radio-wrapper input[type="radio"]:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.radio-wrapper input[type="radio"]:checked {
+  background-image: radial-gradient(#eee 30%, #181818 20%);
+}
+
+.choice1 {
+  padding: 0.5rem;
+}
+
+.choice2 {
+  padding: 0.5rem;
+}
+
+.email-choice {
+  display: none;
+  flex-direction: column;
+}
+
+#resetEmail {
+  height: 3rem;
+  color: #181818;
+  border: 1px solid #aaa;
+  margin-bottom: 1.5rem;
+}
+
+.submitEmail {
+  height: 3.5rem;
+  border: 1px solid #aaa;
+  background-color: #181818;
+  color: #eee;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.submitEmail:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.text-choice {
+  display: none;
+  flex-direction: column;
+}
+
+#resetText {
+  height: 3rem;
+  color: #181818;
+  border: 1px solid #aaa;
+  margin-bottom: 1.5rem;
+}
+
+.submitText {
+  height: 3.5rem;
+  border: 1px solid #aaa;
+  background-color: #181818;
+  color: #eee;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.submitText:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
