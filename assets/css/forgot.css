@@ -71,8 +71,12 @@ nav {
 
 .container-forgot h1 {
   font-family: satan;
-  font-size: 2.4rem;
+  font-size: 2rem;
   margin: 0 0 1rem 0;
+}
+
+.container-forgot p {
+  margin: 0 0 0.5rem 0;
 }
 
 .radio-wrapper {
@@ -113,6 +117,7 @@ nav {
 .email-choice {
   display: none;
   flex-direction: column;
+  margin: 0.5rem 0 0 0;
 }
 
 .email-choice input {
@@ -145,6 +150,7 @@ nav {
 .text-choice {
   display: none;
   flex-direction: column;
+  margin: 0.5rem 0 0 0;
 }
 
 .text-choice input {
