@@ -26,7 +26,7 @@ nav {
 }
 
 .interact {
-  margin: 0 0 0 3rem;
+  margin: 0 0 0 2rem;
 }
 
 .icon-enter:before {
@@ -62,11 +62,17 @@ nav {
 
 .container-forgot {
   background-color: #eee;
-  width: 25em;
+  width: 16em;
   display: flex;
   flex-direction: column;
   padding: 2.5rem;
   margin: auto;
+}
+
+.container-forgot h1 {
+  font-family: satan;
+  font-size: 2.4rem;
+  margin: 0 0 1rem 0;
 }
 
 .radio-wrapper {
@@ -93,7 +99,7 @@ nav {
 }
 
 .radio-wrapper input[type="radio"]:checked {
-  background-image: radial-gradient(#eee 30%, #181818 20%);
+  background-image: radial-gradient(#eee 30%, #9f0000 20%);
 }
 
 .choice1 {
@@ -109,6 +115,11 @@ nav {
   flex-direction: column;
 }
 
+.email-choice input {
+  padding: 0 0 0 1rem;
+  margin: 1rem 0 0 0;
+}
+
 #resetEmail {
   height: 3rem;
   color: #181818;
@@ -119,7 +130,8 @@ nav {
 .submitEmail {
   height: 3.5rem;
   border: 1px solid #aaa;
-  background-color: #181818;
+  font-family: help;
+  background-color: #9f0000;
   color: #eee;
   transition: all 0.5s;
   cursor: pointer;
@@ -135,6 +147,11 @@ nav {
   flex-direction: column;
 }
 
+.text-choice input {
+  padding: 0 0 0 1rem;
+  margin: 1rem 0 0 0;
+}
+
 #resetText {
   height: 3rem;
   color: #181818;
@@ -145,7 +162,8 @@ nav {
 .submitText {
   height: 3.5rem;
   border: 1px solid #aaa;
-  background-color: #181818;
+  font-family: help;
+  background-color: #9f0000;
   color: #eee;
   transition: all 0.5s;
   cursor: pointer;

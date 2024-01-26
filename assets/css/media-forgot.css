@@ -1,21 +1,34 @@
-@media (max-width: 400px) {
+@media (max-width: 376px) {
   .interact {
-    margin: 0 0 0 2rem;
+    margin: 0 0 0 1rem;
   }
   .container {
     width: 20rem;
   }
   .container-forgot {
-    width: 15rem;
+    width: 14rem;
+  }
+  .container-forgot h1 {
+    font-size: 2.3rem;
   }
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 370px) {
   .logo-ndk {
     width: 12rem;
   }
 
   .interact {
     margin: 0 0 0 3rem;
+  }
+
+  .container {
+    width: 20rem;
+  }
+  .container-forgot {
+    width: 13rem;
+  }
+  .container-forgot h1 {
+    font-size: 2.1rem;
   }
 }
