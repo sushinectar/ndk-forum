@@ -1,3 +1,16 @@
+@media (min-width: 1024px) {
+  nav {
+    justify-content: space-between;
+    margin: 0 0 2rem;
+  }
+  .interact {
+    margin: 0 2.7rem;
+  }
+  .icon-enter {
+    margin: 0 1rem;
+  }
+}
+
 @media (max-width: 400px) {
   input[type="email"] {
     width: 19.5rem;
