@@ -1,7 +1,7 @@
 @media (min-width: 1024px) {
   nav {
     justify-content: space-between;
-    margin: 0 0 5rem;
+    margin: 0 0 2rem;
   }
   .interact {
     margin: 0 2.7rem;
@@ -11,6 +11,10 @@
   }
   .container-forgot {
     width: 20rem;
+  }
+  .container-forgot h1 {
+    font-size: 3rem;
+    margin: 0 0 2rem 0;
   }
 }
 
@@ -25,7 +29,7 @@
     width: 14rem;
   }
   .container-forgot h1 {
-    font-size: 1.9rem;
+    font-size: 2.1rem;
   }
 }
 
@@ -45,6 +49,6 @@
     width: 13rem;
   }
   .container-forgot h1 {
-    font-size: 1.8rem;
+    font-size: 1.95rem;
   }
 }
