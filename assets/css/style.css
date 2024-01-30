@@ -26,6 +26,10 @@ nav {
   padding: 1rem;
 }
 
+textarea:focus, input:focus, select:focus {
+  outline: 0;
+}
+
 .interact {
   display: flex;
   flex-direction: row;
@@ -38,15 +42,31 @@ nav {
   flex-direction: row;
   align-items: center;
   width: 10rem;
+  height: 3.5rem;
+  font-weight: 600;
+  margin: 0 2rem 0 0;
+  border: none;
+  border-radius: 20px;
+  color: rgb(250, 250, 250);
+  background-color: rgb(20, 20, 20); 
+}
+
+.search i {
+  margin: 0 0 0 1.5rem;
+}
+
+
+.input-search {
+  width: 7.5rem;
   padding: 1rem;
-  border-radius: 50px;
-  color: rgb(100, 100, 100);
-  background-color: rgb(20, 20, 20);
+  border: none;
+  border-radius: 20px;
+  color: rgb(250, 250, 250);
+  background-color: rgb(20, 20, 20); 
 }
 
 .icon-search img {
   width: 2rem;
-  margin: 0 2rem 0 0;
 }
 
 .icon-login img {
@@ -63,6 +83,14 @@ nav {
   border: none;
   background-color: transparent;
   cursor: pointer;
+}
+
+.post-btn {
+  display: none;
+}
+
+.account-btn {
+  display: none;
 }
 
 #menu {

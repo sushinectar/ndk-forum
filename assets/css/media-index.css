@@ -14,6 +14,38 @@
     margin: 0 27rem 0 0;
   }
 
+  .input-search {
+    width: 27rem;
+  }
+
+  .post-btn {
+    display: flex;
+    position: fixed;
+    top: 6%;
+    right: 7%;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .post-btn img {
+    width: 2rem;
+  }
+
+  .account-btn {
+    display: flex;
+    position: fixed;
+    top: 6%;
+    right: 3%;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .account-btn img {
+    width: 2rem;
+  }
+
   .menu-btn {
     display: none;
   }
@@ -191,8 +223,12 @@
     margin: 0;
   }
 
-  .icon-search img {
-    margin: 0 1.5rem 0 0;
+  .search {
+    width: 8rem;
+  }
+
+  .input-search {
+    width: 5.5rem;
   }
 
   .icon-login img {
@@ -215,14 +251,6 @@
 @media screen and (max-width: 376px) {
   .interact {
     margin: 0;
-  }
-
-  .search {
-    width: 8rem;
-  }
-
-  .icon-search img {
-    margin: 0 1.5rem 0 0;
   }
 
   .icon-login img {
@@ -249,14 +277,6 @@
 @media screen and (max-width: 370px) {
   .interact {
     margin: 0;
-  }
-
-  .search {
-    width: 8rem;
-  }
-
-  .icon-search img {
-    margin: 0 1.5rem 0 0;
   }
 
   .icon-login img {
