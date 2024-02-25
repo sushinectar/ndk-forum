@@ -2,7 +2,8 @@
   nav {
     position: fixed;
     left: 25%;
-    top: 1%;
+    top: 0%;
+    padding: 2rem;
   }
 
   #main {
@@ -75,6 +76,69 @@
     width: 10rem;
   }
 
+  .menu-interacts {
+    position: fixed;
+    bottom: 5%;
+    left: 3%;
+  }
+
+  .recent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: all 0.5s; 
+  }
+
+  .recent:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+
+  .recent-icon img {
+    width: 2rem;
+  }
+
+  .members {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: all 0.5s; 
+  }
+
+  .members:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+
+  .member-icon img {
+    width: 2rem;
+  }
+
+  .exit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: all 0.5s; 
+  } 
+
+  .exit:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+
+  .exit-icon img {
+    width: 2rem;
+  }
+
   .container {
     display: flex;
     width: 50rem;
@@ -103,7 +167,7 @@
   .intro h2 {
     display: flex;
     width: 25rem;
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     font-weight: 400;
     margin: 1rem;
     color: rgb(150, 150, 150);
@@ -130,7 +194,7 @@
     text-transform: uppercase;
     border: none;
     border-radius: 15px;
-    color: #dddddd;
+    color: #dddddd; 
     background-color: #f32c46;
     cursor: pointer;
   }
@@ -138,6 +202,12 @@
   .signin-li {
     display: flex;
     width: 5rem;
+    transition: all 0.5s;
+  }
+
+  .signin-li:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
   }
 
   .signin-btn {
@@ -215,6 +285,33 @@
 
   .teste {
     height: 100rem;
+  }
+
+  #others {
+    position: fixed;
+    top: 25%;
+    right: 4%;
+  }
+
+  .members-online {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .members-online-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .members-online-icon img {
+    width: 2rem;
+  }
+
+  .members-list {
+    padding: 1rem;
+    gap: 1rem;
   }
 }
 
